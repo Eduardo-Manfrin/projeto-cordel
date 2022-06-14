@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+:root{
+    --fonte-poesia: 'sriracha', 'cursive', sans-serif;
+    --fonte-header: 'Passion One', 'cursive';
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.externo{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.externo:hover{
+    text-decoration: underline;
+}
+
+header{
+    color: white;
+    background-color: black;
+    min-height: 150px;
+    text-align: center;
+}
+
+header > h1{
+    margin: auto;
+    font-family: var(--fonte-header);
+    font-weight: normal;
+    padding-top: 48px;
+    font-size: 10vw;
+    text-transform: small-caps;
+}
+
+header > p{
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+body{
+    background-color: white;
+}
+
+div{
+    margin: 0px;
+    padding: 30px 0px;
+    box-shadow: inset 1px 1px 5px 0px rgba(0, 0, 0, 0.404);
+}
+
+div#joaninha{
+    background-image: url('../imagens/joaninha.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div#folha{
+    background-image: url('../imagens/folhas.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sobrepondo{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.404);
+    max-width: max-content;
+    padding: 0px;
+    margin: 0px auto 0px 25px;
+    display: block;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.418);
+}
+
+article{
+    font-family: var(--fonte-poesia);
+    font-size: 3.0vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+aside.foradaimg{
+    padding: 20px;
+    padding-bottom: 20px;
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+}
